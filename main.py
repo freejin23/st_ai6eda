@@ -8,11 +8,11 @@ st.set_page_config(
     layout="wide",
 )
 
-st.markdown("# MPG 🧠")
-st.sidebar.markdown("# MPG 🧠")
+st.markdown("# Stroke Prediction Dataset (kaggle) 🧠")
+st.sidebar.markdown("# Stroke 🧠")
 
 st.write("""
-### 자동차 연비
+### 뇌졸중
 """)
 
 DATE_COLUMN = 'date/time'
