@@ -6,5 +6,4 @@ plotly
 seaborn
 matplotlib
 koreanize_matplotlib
-scipy
 warnings
