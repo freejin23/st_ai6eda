@@ -40,7 +40,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn.utils import shuffle
 
-stroke = pd.read_csv("content/stroke.csv")
+
 
 st.set_page_config(
     page_title="Likelion AI School Oh Team Miniproject",
@@ -61,7 +61,7 @@ DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
 
 @st.cache
 def load_data(nrows):
-    data = pd.read_csv(DATA_URL, nrows=nrows)
+    data = pd.read_csv("content/stroke.csv")
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
