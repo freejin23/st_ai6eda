@@ -4,6 +4,19 @@ import numpy as np
 
 st.title('Strok Prediction Dataset')
 
+st.set_page_config(
+    page_title="Likelion AI School Oh Team Miniproject",
+    page_icon="🧠",
+    layout="wide",
+)
+
+st.markdown("# MPG 🧠")
+st.sidebar.markdown("# MPG 🧠")
+
+st.write("""
+### 자동차 연비
+""")
+
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
             'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
