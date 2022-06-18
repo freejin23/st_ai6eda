@@ -8,6 +8,3 @@ matplotlib
 koreanize_matplotlib
 scipy
 warnings
-sklearn
-xgboost
-lightgbm
