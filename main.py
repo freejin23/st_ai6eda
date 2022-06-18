@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Strok Prediction Dataset')
-
 st.set_page_config(
     page_title="Likelion AI School Oh Team Miniproject",
     page_icon="🧠",
