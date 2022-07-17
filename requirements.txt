@@ -9,3 +9,4 @@ imgaug
 scikit-learn
 opencv-python-headless
 keras
+tensorflow
