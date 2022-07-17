@@ -7,5 +7,5 @@ scikit-image
 pillow
 imgaug
 scikit-learn
-keras
+keras.models
 opencv-python-headless
