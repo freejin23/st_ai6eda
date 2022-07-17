@@ -19,7 +19,7 @@ from PIL import Image
 
 from sklearn.model_selection import train_test_split
 
-from keras.models import Model
+from keras.models import *
 # from keras.layers import *
 # from keras.optimizers import *
 # from keras.utils import *
