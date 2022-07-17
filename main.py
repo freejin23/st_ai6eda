@@ -28,7 +28,7 @@ from keras.callbacks import *
 
 from keras.applications.densenet import DenseNet121, preprocess_input
 
-import cv2
+# import cv2
 
 st.title("GUESS WHAT DOG YOU ARE")
 
